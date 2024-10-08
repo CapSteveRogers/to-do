@@ -1,0 +1,18 @@
+.remove-sign__todo {
+  background-color: transparent;
+  border: 0;
+  font-size: 27px;
+  color: #97575794;
+  opacity: 0;
+}
+
+.remove-sign__todo:hover {
+  color: #b47777;
+}
+.newItem:hover .remove-sign__todo {
+  opacity: 1;
+}
+.todo-title {
+  font-size: 24px;
+  transition: 0.2s all ease-in-out;
+}
